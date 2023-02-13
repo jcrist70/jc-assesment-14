@@ -1,0 +1,17 @@
+.info-container { 
+    height: 20vh;
+    max-width: 88vw; 
+    margin: auto;
+    border: none;
+    border-radius: 18px;
+    background-color: #2ed6f0;
+  }
+  .info-component {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    inline-size: 66vw; 
+    overflow: hidden;
+    overflow-wrap: break-word;
+    padding: 10px;
+    margin-top: 20px;
+  }

@@ -1,0 +1,18 @@
+.image-container {
+    display: flex;
+    max-height: 20vh;
+    max-width: 92vw;
+    margin: auto;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    justify-content: center;
+}
+.image {   
+    height: 20vh;
+    width: 92vw; 
+    object-position: 50% 72%;
+    border: none;
+    object-fit: cover;
+    border-radius: 18px;
+    background-color: #2e71f0;
+}

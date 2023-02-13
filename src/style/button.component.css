@@ -1,0 +1,33 @@
+.button-component-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+}
+.button-component { 
+    height: 20vh;
+    width: 92vw; 
+    border: none;
+    border-radius: 18px;
+    color: white;
+    background-color: #2e71f0;
+    display: grid;
+    grid-template-rows: repeat(4,25px);
+    grid-template-columns: repeat(14,10.5px);
+    grid-row-gap: 10px;
+    grid-column-gap: 15px;
+    
+}
+.button-component-text {
+    grid-row: 1/1;
+    grid-column: 1/14;
+    padding: 20px;
+    font-size: 26px;
+    
+}
+.button-component-icon {
+    grid-row: 3/3;
+    grid-column: 12/14;
+    font-size: 46px !important;
+    /* background-color: #f02eb9; */
+}
